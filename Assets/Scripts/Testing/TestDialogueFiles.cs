@@ -2,25 +2,18 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using DIALOGUE;
-
-namespace TESTING{
-public class TestParsing : MonoBehaviour
+public class TestConversation : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SendFileToParse();
+        StartConversation();
     }
 
     // Update is called once per frame
-    void SendFileToParse()
+    void StartConversation()
     {
         List<string> lines = FileManager.ReadTextAsset("testFile", false);
-
-        foreach(string line in lines)
-            {
-                DIALOGUE_LINE dl= DialogueParser.Parse(line);
-            }
+        DialogueSystem.instance.Say(lines);
     }
-}
 }
