@@ -13,7 +13,7 @@ public class TestConversation : MonoBehaviour
     // Update is called once per frame
     void StartConversation()
     {
-        List<string> lines = FileManager.ReadTextAsset("testFile", false);
+        List<string> lines = FileManager.ReadTextAsset("Acrobata", false);
         DialogueSystem.instance.Say(lines);
     }
 }

@@ -1,0 +1,17 @@
+narrator "Il nome della sua mansione deriva dal greco e significa “che cammina sulla punte dei piedi”. Si tratta dell’acrobata, capace di eseguire esercizi spettacolari e difficili che richiedono allenamenti estremamente faticosi."
+"Fin da piccolo è stato abituato alla disciplina e al rigore che questa forma d’arte richiede.\nEntrando nella circo-stanza dell’acrobata notate, alle pareti, numerose foto dei suoi successi ed un ambiente molto ordinato e pulito."
+"Mentre commenta le foto posizionate con cura, vi fa accomodare e vi offre un vassoio di biscotti appena sfornati, e qualche bibita in lattina opportunamente versata in bicchieri di vetro."
+
+Acrobata “Non mi piace usare stoviglie usa e getta”
+
+narrator "dice orgoglioso mentre vi porge i bicchieri."
+
+Acrobata "Nel mio piccolo cerco di fare scelte ecologiche ma spesso mi sembra che in fondo siano inutili. Nei pressi del nostro tendone non ci sono nemmeno contenitori per la raccolta differenziata!"
+"Devo allontanarmi per eliminare i rifiuti differenziati e penso di essere l’unico a farlo. Ho provato a coinvolgere altri artisti e artiste della compagnia, ma non credo di esserci riuscito."
+"Mi sono sentito dire che tanto la situazione non cambia e che ci sono ben altri problemi. Io non riesco a puntare i piedi e far sentire la mia voce. Preferisco, forse con fin troppa leggerezza, cedere alle ragioni altrui e tenere per me le mie"
+
+narrator "Chissà quante volte ha provato a parlarne, e quante volte si è sentito incapace di portare avanti la sua idea. Gli offrite la vostra collaborazione, proponendo di accennare la questione a qualche altra/o artista."
+"L’acrobata, lieto del vostro aiuto, vi indica due persone a cui potreste rivolgervi: il funambolo e il giocoliere."
+"Il primo potrebbe mostrarsi sensibile alla questione ma è nuovo nella compagnia e ancora non sente di avere sufficiente confidenza per parlargli schiettamente; forse il vostro intervento può rivelarsi motivante e generare persino un pretesto per una maggiore conoscenza reciproca. "
+"Il secondo, invece, è un suo amico d’infanzia, lo conosce bene, è un tipo cocciuto che riesce a far valere le sue regole, soprattutto con le persone che conosce molto bene; forse ascoltare una voce nuova sarà stimolante e si mostrerà più collaborativo."
+"Da chi volete andare: dal funambolo o dal giocoliere?\nPer farlo, dimostrate di aver letto bene. Se avete colto il tema etico, darete senso a questo anagramma:"
