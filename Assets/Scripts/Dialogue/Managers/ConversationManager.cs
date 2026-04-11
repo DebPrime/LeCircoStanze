@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using INPUT;
 
 namespace DIALOGUE
 {
@@ -11,10 +12,12 @@ namespace DIALOGUE
         private Coroutine process = null;
         public bool isRunning => process != null;
         private TextArchitect architect = null;
+        private InputContainer inputContainer = null;
         private bool userPrompt=false;
-        public ConversationManager(TextArchitect architect)
+        public ConversationManager(TextArchitect architect, InputContainer inputContainer)
         {
             this.architect=architect;
+            this.inputContainer=inputContainer;
             dialogueSystem.onUserPrompt_Next+=OnUserPrompt_Next;
         }
 
@@ -45,6 +48,14 @@ namespace DIALOGUE
                     continue;
                 DIALOGUE_LINE line =DialogueParser.Parse(conversation[i]);
 
+                if (line.hasDialogue && !line.hasSpeaker && line.dialogue == "END")
+                {
+                    inputContainer.root.SetActive(true);
+                    Debug.Log("activated inputbar");
+                    process = null;
+                    yield break;
+                }
+
                 //Show dialogue
                 if (line.hasDialogue)
                     yield return Line_RunDialogue(line);
@@ -54,13 +65,13 @@ namespace DIALOGUE
                     yield return Line_RunCommands(line);
                 yield return new WaitForSeconds(1);
             }
+            process = null;
         }
         IEnumerator Line_RunDialogue(DIALOGUE_LINE line)
         {
             //Show or hide the speaker name if there is one present.
             if (line.hasSpeaker)
                 dialogueSystem.ShowSpeakerName(line.speaker);
-
 
             //Build dialogue
             yield return BuildDialogue(line.dialogue);

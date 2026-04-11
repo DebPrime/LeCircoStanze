@@ -15,3 +15,4 @@ narrator "Chissà quante volte ha provato a parlarne, e quante volte si è senti
 "Il primo potrebbe mostrarsi sensibile alla questione ma è nuovo nella compagnia e ancora non sente di avere sufficiente confidenza per parlargli schiettamente; forse il vostro intervento può rivelarsi motivante e generare persino un pretesto per una maggiore conoscenza reciproca. "
 "Il secondo, invece, è un suo amico d’infanzia, lo conosce bene, è un tipo cocciuto che riesce a far valere le sue regole, soprattutto con le persone che conosce molto bene; forse ascoltare una voce nuova sarà stimolante e si mostrerà più collaborativo."
 "Da chi volete andare: dal funambolo o dal giocoliere?\nPer farlo, dimostrate di aver letto bene. Se avete colto il tema etico, darete senso a questo anagramma:"
+"END"

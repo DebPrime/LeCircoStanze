@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using INPUT;
 
 namespace DIALOGUE{
 public class DialogueSystem : MonoBehaviour
 {
     public DialogueContainer dialogueContainer = new DialogueContainer();
+    public InputContainer inputContainer = new InputContainer();
     private ConversationManager conversationManager;
     private TextArchitect architect;
 
@@ -32,7 +34,7 @@ public class DialogueSystem : MonoBehaviour
             if(_initialized)
                 return;
             architect=new TextArchitect(dialogueContainer.dialogueText);
-            conversationManager = new ConversationManager(architect);
+            conversationManager = new ConversationManager(architect, inputContainer);
         }
 
     public void OnUserPrompt_Next()
@@ -48,12 +50,13 @@ public class DialogueSystem : MonoBehaviour
                 HideSpeakerName();
         }
     public void HideSpeakerName() => dialogueContainer.nameContainer.Hide();
-    public void Say(string speaker, string dialogue)
-        {
+    public void Say(string speaker, string dialogue){
+
             List<string> conversation=new List<string>() {$"{speaker} \"{dialogue}\""};
             Say(conversation);
-        }
-    
+
+    }
+        
     public void Say(List<string> conversation)
         {
             conversationManager.StartConversation(conversation);
