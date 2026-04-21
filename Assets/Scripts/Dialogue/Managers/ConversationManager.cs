@@ -13,17 +13,70 @@ namespace DIALOGUE
         public bool isRunning => process != null;
         private TextArchitect architect = null;
         private InputContainer inputContainer = null;
-        private bool userPrompt=false;
+        private bool userPrompt = false;
+        private bool backRequested = false;
+        private bool waitingForInput = false;
+        private bool waitingAtInputBar = false;
+        private bool inputCompleted = false;
+        private int currentLineIndex = 0;
+
         public ConversationManager(TextArchitect architect, InputContainer inputContainer)
         {
-            this.architect=architect;
-            this.inputContainer=inputContainer;
-            dialogueSystem.onUserPrompt_Next+=OnUserPrompt_Next;
+            this.architect = architect;
+            this.inputContainer = inputContainer;
+            dialogueSystem.onUserPrompt_Next += OnUserPrompt_Next;
+            dialogueSystem.onUserPrompt_Back += OnUserPrompt_Back;
+            dialogueSystem.onInputComplete += OnInputComplete;
         }
 
         private void OnUserPrompt_Next()
         {
-            userPrompt=true;
+            if (architect != null && architect.isBuilding)
+            {
+                userPrompt = true;
+                backRequested = false;
+                return;
+            }
+
+            if (waitingForInput)
+            {
+                userPrompt = true;
+                backRequested = false;
+                return;
+            }
+
+            if (waitingAtInputBar)
+            {
+                // Non fare nulla, l'input bar gestisce il completamento tramite CheckAnswer.
+            }
+        }
+
+        private void OnUserPrompt_Back()
+        {
+            if (architect != null && architect.isBuilding)
+            {
+                userPrompt = true;
+                backRequested = false;
+                return;
+            }
+
+            if (waitingForInput)
+            {
+                userPrompt = true;
+                backRequested = true;
+                return;
+            }
+
+            if (waitingAtInputBar)
+            {
+                backRequested = true;
+            }
+        }
+
+        private void OnInputComplete()
+        {
+            inputCompleted = true;
+            waitingAtInputBar = false;
         }
         
         public void StartConversation(List<string> conversation)
@@ -41,28 +94,85 @@ namespace DIALOGUE
         }
         IEnumerator RunningConversation(List<string> conversation)
         {
-            for(int i = 0; i < conversation.Count; i++)
+            currentLineIndex = 0;
+            while (currentLineIndex < conversation.Count)
             {
-                //don't show any black lines or try to run any logic on them
-                if(string.IsNullOrWhiteSpace(conversation[i]))
+                //don't show any blank lines or try to run any logic on them
+                if (string.IsNullOrWhiteSpace(conversation[currentLineIndex]))
+                {
+                    currentLineIndex++;
                     continue;
-                DIALOGUE_LINE line =DialogueParser.Parse(conversation[i]);
+                }
+
+                DIALOGUE_LINE line = DialogueParser.Parse(conversation[currentLineIndex]);
 
                 if (line.hasDialogue && !line.hasSpeaker && line.dialogue == "END")
                 {
                     inputContainer.root.SetActive(true);
                     Debug.Log("activated inputbar");
-                    process = null;
-                    yield break;
+                    
+                    // Avvia il controllo risposta
+                    CheckAnswer checkAnswerScript = Object.FindObjectOfType<CheckAnswer>();
+                    if (checkAnswerScript != null)
+                    {
+                        checkAnswerScript.StartAnswerCheck();
+                    }
+                    else
+                    {
+                        Debug.LogWarning("CheckAnswer script not found in scene!");
+                    }
+
+                    waitingAtInputBar = true;
+                    inputCompleted = false;
+
+                    while (waitingAtInputBar && !inputCompleted)
+                    {
+                        if (backRequested)
+                        {
+                            backRequested = false;
+                            int previousIndex = FindPreviousDialogueLineIndex(conversation, currentLineIndex);
+                            if (previousIndex >= 0)
+                            {
+                                currentLineIndex = previousIndex;
+                                waitingAtInputBar = false;
+                                break;
+                            }
+                        }
+                        yield return null;
+                    }
+
+                    if (inputCompleted)
+                    {
+                        process = null;
+                        yield break;
+                    }
+                    continue;
                 }
 
                 //Show dialogue
                 if (line.hasDialogue)
                     yield return Line_RunDialogue(line);
 
+                if (backRequested)
+                {
+                    backRequested = false;
+                    int previousIndex = FindPreviousDialogueLineIndex(conversation, currentLineIndex);
+                    if (previousIndex >= 0)
+                    {
+                        currentLineIndex = previousIndex;
+                        continue;
+                    }
+
+                    // Se siamo al primo dialogo e viene premuto Back, ignoralo e rimani sullo stesso testo.
+                    yield return WaitForUserInput();
+                    continue;
+                }
+
                 //Run any commands
                 if (line.hasCommands)
                     yield return Line_RunCommands(line);
+
+                currentLineIndex++;
                 yield return new WaitForSeconds(1);
             }
             process = null;
@@ -87,25 +197,43 @@ namespace DIALOGUE
         IEnumerator BuildDialogue(string dialogue)
         {
             architect.Build(dialogue);
-            while(architect.isBuilding)
+            while (architect.isBuilding)
+            {
+                if (userPrompt)
                 {
-                    if (userPrompt)
+                    if (!architect.hurryUp)
                     {
-                        if(!architect.hurryUp)
-                            architect.hurryUp=true;
-                        else
-                            architect.ForceComplete();
-                        
-                        userPrompt=false;
+                        architect.hurryUp = true;
                     }
-                    yield return null;
+                    else
+                    {
+                        architect.ForceComplete();
+                    }
+                    userPrompt = false;
                 }
+                yield return null;
+            }
         }
         IEnumerator WaitForUserInput()
         {
+            waitingForInput = true;
             while(!userPrompt)
                 yield return null;
+            waitingForInput = false;
             userPrompt=false;
+        }
+
+        private int FindPreviousDialogueLineIndex(List<string> conversation, int startIndex)
+        {
+            for (int i = startIndex - 1; i >= 0; i--)
+            {
+                if (string.IsNullOrWhiteSpace(conversation[i]))
+                    continue;
+                DIALOGUE_LINE line = DialogueParser.Parse(conversation[i]);
+                if (line.hasDialogue)
+                    return i;
+            }
+            return -1;
         }
     }
 

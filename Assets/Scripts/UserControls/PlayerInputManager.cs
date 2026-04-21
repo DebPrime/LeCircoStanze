@@ -15,12 +15,17 @@ public class PlayerInputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
             PromptAdvance();
+
     }
     public void PromptAdvance()
     {
         DialogueSystem.instance.OnUserPrompt_Next();
+    }
+    public void PromptReturn()
+    {
+        DialogueSystem.instance.OnUserPrompt_Back();
     }
 }
 }

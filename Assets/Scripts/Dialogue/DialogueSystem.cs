@@ -16,6 +16,8 @@ public class DialogueSystem : MonoBehaviour
 
     public delegate void DialogueSystemEvent();
     public event DialogueSystemEvent onUserPrompt_Next;
+    public event DialogueSystemEvent onUserPrompt_Back;
+    public event DialogueSystemEvent onInputComplete;
 
     public bool isRunningConversation => conversationManager.isRunning;
     private void Awake()
@@ -40,6 +42,14 @@ public class DialogueSystem : MonoBehaviour
     public void OnUserPrompt_Next()
         {
             onUserPrompt_Next?.Invoke();
+        }
+    public void OnUserPrompt_Back()
+        {
+            onUserPrompt_Back?.Invoke();
+        }
+    public void OnInputComplete()
+        {
+            onInputComplete?.Invoke();
         }
 
     public void ShowSpeakerName(string speakerName = "")
