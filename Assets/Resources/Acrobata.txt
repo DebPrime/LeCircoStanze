@@ -2,7 +2,7 @@ narrator "Il nome della sua mansione deriva dal greco e significa “che cammina
 "Fin da piccolo è stato abituato alla disciplina e al rigore che questa forma d’arte richiede.\nEntrando nella circo-stanza dell’acrobata notate, alle pareti, numerose foto dei suoi successi ed un ambiente molto ordinato e pulito."
 "Mentre commenta le foto posizionate con cura, vi fa accomodare e vi offre un vassoio di biscotti appena sfornati, e qualche bibita in lattina opportunamente versata in bicchieri di vetro."
 
-Acrobata “Non mi piace usare stoviglie usa e getta”
+Acrobata "Non mi piace usare stoviglie usa e getta"
 
 narrator "dice orgoglioso mentre vi porge i bicchieri."
 

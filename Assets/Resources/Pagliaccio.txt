@@ -1,0 +1,24 @@
+narrator "Avete scelto di incontrare il pagliaccio. Sebbene la sua professione abbia lo scopo di suscitare allegria e risate, si intuisce subito dallo sguardo di quest’uomo che, tolti trucco e parrucca, ciò che resta è una grande malinconia."
+"Il funambolo forse ha ragione, forse quest’uomo ha una dipendenza e ha bisogno di aiuto."
+"Varcato l’ingresso della circo-stanza del pagliaccio, inciampate su una decina di bottiglie lasciate a terra. Guardando attorno notate altri mucchi di bottiglie e lattine sparsi nei vari angoli e pertugi offerti dal suo ambiente."
+"Nell’intimità del suo caravan il pagliaccio beve senza controllo, è evidente, sebbene riesca a camuffare la sua dipendenza fuori dal suo nido."
+"Vi fa accomodare e vi racconta come ha iniziato, come lentamente l’alcool ha preso il posto di tutto. Niente gli sembra importante e degno d'essere vissuto. Confida un pensiero tremendo che lo tormenta da tempo:"
+
+Pagliaccio "Nessuno si accorgerebbe di me se sparissi, sono certo che io verrei sostituito facilmente da qualcuno più giovane e bravo di me; qualcuno che non sia un fallimento totale come il sottoscritto"
+
+narrator "Percepite nelle sue parole un grido disperato d’aiuto ma non avete certezza su cosa bisogna fare in queste situazioni. Gli chiedete se davvero non ci sia nessuno che gli è vicino all’interno della compagnia, magari semplicemente qualcuno con cui gli è capitato di scambiare qualche chiacchiera piacevole."
+"Ci pensa un momento poi indica la cavallerizza e la contorsionista come uniche persone con cui da anni ha un minimo di interazione."
+
+Pagliaccio "La prima non mi fa sentire mai giudicato"
+
+narrator " – afferma – "
+
+Pagliaccio "mentre la seconda mi ascolta sempre, preferisce ascoltare che parlare, perciò, quando è possibile, ne approfitto. Da tempo penso che dovrei rivolgermi a qualche gruppo di supporto, so di avere un problema ma non voglio andarci da solo"
+
+narrator "Poi improvvisamente conclude:"
+
+Pagliaccio "Potete chiederlo voi? Scegliete voi chi potrebbe sentirsela di accompagnarmi"
+
+narrator "Non vi aspettavate di certo una responsabilità del genere, ma di fronte a questa richiesta sentite di dover dare una mano per quanto potete, e forse è questo il modo migliore per farlo.\nChi scegliete? La cavallerizza o la contorsionista?"
+"Per farlo, dimostrate di aver letto bene.\nSe avete colto il tema etico, darete senso a questo anagramma:"
+"END"

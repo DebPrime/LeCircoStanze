@@ -1,0 +1,22 @@
+narrator "Avete scelto di incontrare la cavallerizza, di rivolgere a lei un appello alla sua sensibilità, alla sua consapevolezza di come possono essere percepite le parole che sentiamo."
+"Entrate nella circo-stanza della cavallerizza e lei è lì, intenta a sistemare alcuni abiti di scena. Sono luccicanti e appariscenti. Richiamano volutamente attenzione perché nelle sue esibizioni non può rischiare di passare inosservata. Gli animali di cui si prende amorevolmente cura non sono i protagonisti, sebbene determinanti per il nome del suo ruolo artistico."
+
+Cavallerizza "Essere una donna non è facile"
+
+narrator  "esordisce lapidaria."
+
+Cavallerizza "Vengono date per scontate tante cose, buona parte delle quali riconducibili a stereotipi diffusi in maniera più o meno esplicita"
+
+narrator "Le chiedete di spiegarsi, di indicare a cosa stia facendo riferimento.\nCosì prosegue la riflessione:"
+
+Cavallerizza  "Tante volte ho sentito il peso di aspettative legate ad un presunto dovere di cura, così come tante altre volte ho subìto il pregiudizio laddove questa cura non la offrivo nel modo in cui era voluta o pretesa. Ho attraversato un periodo difficile in cui non sono stata in grado nemmeno di proteggermi, e ho fatto scelte di cui mi sono pentita, pensando di poter scindere la mia immagine e le mie prestazioni da ciò che sono io, dalla mia identità"
+
+narrator "La ascoltate con attenzione ma non sapete bene come proseguire la conversazione, così pensa lei a riempire il silenzio che si è creato."
+
+Cavallerizza "So di non essere sola nel provare questa sensazione, ma conosco anche la difficoltà che c’è nell’intraprendere un cammino per andare oltre i pregiudizi che ci riguardano, sia come destinatari, sia come mittenti."
+"Vengo da un passato in cui vendere il mio corpo era stata una scelta dettata da necessità, ma anche un libero esercizio di autodeterminazione; ho vissuto sulla mia pelle tanti pregiudizi, e ho dovuto anche rielaborare tante convinzioni. Il confronto e l’ascolto sono stati fondamentali per non sentirmi sola e per trovare la forza di cambiare la situazione in cui versavo; ma non è possibile per tutti."
+"La mia collega contorsionista ha un rapporto col suo corpo molto diverso dal mio mentre il domatore fatica a mettere in discussione le sue convinzioni. Una conversazione con loro sono certa che potrebbe darvi altri spunti"
+
+narrator "Con chi volete conversare: con la contorsionista o con il domatore?"
+"Per farlo, dimostrate di aver letto bene.\nSe avete colto il tema etico, darete senso a questo anagramma:"
+"END"

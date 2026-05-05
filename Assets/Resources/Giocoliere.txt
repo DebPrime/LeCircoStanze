@@ -1,0 +1,20 @@
+narrator "Avete scelto di incontrare il giocoliere, forse per via della descrizione del suo carattere; è possibile immaginarlo come un interlocutore con il quale la conversazione assume il sapore della sfida."
+"Entrati nella circo-stanza del giocoliere, balza subito all’occhio la quantità e la qualità di immagini riportate alle pareti. Era possibile aspettarsi di trovare attrezzi per le sue esibizioni sparsi in giro, oppure foto che lo immortalano, mentre si esibisce con una dozzina di birilli o forse più."
+"Invece le foto riportano esclusivamente immagini femminili, poco o per nulla vestite, quasi a formare muri di corpi esposti, come scaffali di merci in vendita a prezzo accessibile per una larga fascia di consumatori."
+"Il giocoliere non bada molto ai convenevoli e piuttosto seccato si lamenta della vostra presenza, ritenendola invadente. Non ha intenzione – riferisce – di perdere tempo in chiacchiere e lamenti come una femminuccia qualsiasi, come fanno certe sue colleghe."
+"Dopo una breve pausa prosegue insinuando che la carriera di queste donne sia stata incentivata anche, o soprattutto, da fattori non proprio derivanti dal loro talento; poi aggiunge che sono ossessionate dal dimostrare di essere all’altezza dei maschi, e che questo genera un clima conflittuale col resto del personale."
+"Si riferisce alla trapezista e alla cavallerizza. Della prima in particolare critica i modi di porsi, sempre troppo avventata nel relazionarsi e nelle conclusioni a cui giunge; la seconda invece risulta essere troppo ambigua, mantenendo sempre i piedi su due staffe ed evitando di prendere una posizione chiara quando c’è da esprimersi su qualcosa."
+
+Giocoliere "Se si potessero abolire le quote rosa sarei d’accordo"
+
+narrator "conclude l’artista."
+
+Giocoliere "Chissà cosa farebbero senza questo circo che le lascia lavorare! Ma non ci pensano ai loro figli o ai loro mariti?"
+
+narrator "Infine vi rivolge un'esortazione:"
+
+Giocoliere "Provate voi a parlare con loro e vedrete che in fondo ho ragione, sono tutte uguali le donne, magari convincete una di loro a cambiare per lo meno atteggiamento"
+
+narrator "Vi allontanate con perplessità. Chissà se queste donne sono a conoscenza del fatto che ci siano insinuazioni ed opinioni di questo tipo nei loro confronti. Forse andrebbero informate, ma a chi rivolgersi per non inasprire queste tensioni? Alla trapezista o alla cavallerizza?"
+"Per farlo, dimostrate di aver letto bene.\nSe avete colto il tema etico, darete senso a questo anagramma:"
+"END"

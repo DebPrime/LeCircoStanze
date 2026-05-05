@@ -1,0 +1,28 @@
+narrator "Avete scelto di incontrare il domatore, forse perché si allude a lui come qualcuno fortemente aggrappato alle sue convinzioni, e magari è presente in voi l’intenzione di verificare se davvero è così."
+"Nella stanza del domatore non potete evitare di notare numerosi amuleti e talismani, attaccati alle pareti, appesi alle maniglie della porta e della finestra o semplicemente appoggiati sul comodino."
+
+Domatore "Questo lo indosso in ogni nuova esibizione"
+
+narrator "dice l’uomo afferrando un talismano raffigurante uno scarabeo."
+
+Domatore "La fortuna non è questione di casualità ma di potere, la si può controllare e dominare come faccio con elefanti e leoni. Coi felini, però, è necessario questo amuleto"
+
+narrator "Il domatore mostra un ciondolo con l’occhio di Horus e continua:"
+
+Domatore "Non dobbiamo pretendere di essere protetti da altri, dobbiamo farlo noi ricorrendo a qualsiasi strumento a nostra disposizione"
+
+narrator "Tono e parole dell’uomo confermano quanto avete sentito su di lui; pensate che abbia le sue convinzioni e per ora non vedete nulla di male in questo.\nPoi prosegue e il tono cambia:"
+
+Domatore "Pochi conoscono davvero il potenziale di questi oggetti, ma con le armi giuste si può vincere qualsiasi sfida, basta capire quanto e quale potere abbiamo o possiamo acquisire; non sopporto chi condanna il potere come una logica disumana, perché  tutti lo cerchiamo e lo vogliamo, tutti ne abbiamo bisogno per essere liberi e realizzati. Fortuna, potere e controllo, ecco ciò che conta davvero"
+
+narrator "Sono parole forti e gli fate notare che chi esercita un potere, a bene vedere, agisce su qualcuno che spesso di potere ne ha meno, e che la condanna di questo come logica disumana si riferisce a contesti di violenza o di sopruso, in cui non vengono riconosciuti diritti fondamentali come la stessa libertà che è l’opposto del controllo.\nVi risponde:"
+
+Domatore "Queste sono tutte facili credenze. So che vengo additato come uno fissato che non mette mai in discussione le sue convinzioni; e se invece fosse il contrario? Senza contesti di violenza emergerebbero i diritti che vengono poi riconosciuti come tali? Il male non è forse necessario per far emergere il bene? Se è così, anche il male diventa bene, si equilibrano o si annullano, e alla fine resta solo il potere nelle mani di chi lo sa usare"
+
+narrator "La risposta del domatore genera un momento di silenzio, così conclude perentorio:"
+
+Domatore "Non sono l’unico a pensare una realtà diversa, chiedete allo sputafuoco oppure alla illusionista"
+
+narrator "Con chi volete parlare: con lo sputafuoco o con la illusionista?"
+"Per farlo, dimostrate di aver letto bene.\nSe avete colto il tema etico, darete senso a questo anagramma:"
+"END"

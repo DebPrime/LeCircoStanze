@@ -1,0 +1,2 @@
+narrator "Benvenuti e benvenute nella circo-stanza della Direttrice, colei che mette in ordine i costumi delle varie circostanze.\nProvate a fare altrettanto:"
+"END"

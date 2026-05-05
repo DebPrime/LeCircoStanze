@@ -1,0 +1,18 @@
+narrator "Avete scelto di incontrare la trapezista. Le parole crude e irritanti del giocoliere risuonano ancora in voi e possono creare incomprensioni, danni e discriminazioni."
+"Occorre opporsi a questa logica, combattere il pregiudizio quando lo si incontra, e questo la trapezista lo sa bene."
+"Nella circo-stanza della trapezista vi immergete in un mondo di colori e profumi. L’ambiente che ha costruito intorno a sé è accogliente e suscita curiosità per la ricchezza di stimoli sensoriali di cui dispone."
+
+Trapezista "Accomodatevi dove preferite"
+narrator "vi dice, e poi prosegue."
+
+Trapezista "Dalle mie parti ci si siede spesso a terra su un grande tappeto, ma nel mio caravan non c’è sufficiente spazio per poterlo fare! E poi non mi piace indicare il posto o il modo in cui sedersi, preferisco che ognuno lo faccia spontaneamente dove ha voglia di farlo, individuando quel punto in cui si sente in armonia con ciò che lo circonda"
+
+narrator "Forse non capite ciò che sta dicendo, il vostro sguardo comunica una certa perplessità. Volevate intessere una conversazione su stereotipi di genere e pregiudizi, ma lei vi ha spiazzato con questo vorticoso ragionamento.\nCosì lei riprende:"
+
+Trapezista "L’integrazione credo sia questo, sentirsi in armonia con l’ambiente e le sue dinamiche, senza fusione né scontro. Non c’è adeguamento di una delle parti, quanto piuttosto la sintonizzazione, che richiede tempo, allenamento e anche coraggio. Sì, anche coraggio, perché può essere un vero salto nel vuoto"
+"Quando parlo di integrazione, soprattutto tra le diverse culture, non sempre vengo capita. Mi prendono per avventata, perché ammetto che la persona straniera può far paura per la sua diversità dallo standard. Lo sanno bene sia la contorsionista, sia la controfigura, e ve lo potranno raccontare in prima persona, proprio in virtù di questa diversità, che io preferisco chiamare unicità."
+"La collega contorsionista è sistematicamente sminuita, e molti preferiscono concentrarsi su ciò che non va in lei, senza vedere, invece, le sue qualità. Il collega che fa la controfigura ha corso tanti pericoli vivendo per strada, desiderando costantemente una vita più dignitosa che gli permettesse di essere qualcun’altro"
+
+narrator "Quale diversa unicità volete ascoltare? Quella della contorsionista o quella della controfigura?"
+"Per farlo, dimostrate di aver letto bene.\nSe avete colto il tema etico, darete senso a questo anagramma:"
+"END"

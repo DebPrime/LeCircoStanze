@@ -1,0 +1,19 @@
+narrator "Avete scelto di incontrare la contorsionista, stimata artista del tendone. In tanti negli anni hanno ritenuto un complimento riconoscere che il suo limite è diventato opportunità, che è stata capace di tramutare la sua 'sfiga' in sfida."
+"Entrando nella circo-stanza della contorsionista il vostro sguardo si poggia immediatamente su alcune protesi appoggiate sul tavolo. Guardate lei e vi accorgete di provare imbarazzo. Non sapete se questa sensazione sia dettata dal notare solo adesso la sua menomazione, o dal non sapere bene come reagire all’improvvisa constatazione della sua esistenza."
+
+Contorsionista "Sono inquietanti tutte queste mani vero?"
+
+narrator "Ironizza l’artista riferendosi alle protesi sul tavolo."
+
+Contorsionista "Alcune ormai non le uso più da tempo, ma ancora non me ne libero, potrebbero tornare utili anche per qualche scherzo ad Halloween!"
+
+narrator "Nonostante le sue parole vogliano probabilmente mettervi a vostro agio e riescano a farvi sorridere, la vostra sensazione non passa. Dipende da chi parla, da chi ascolta, o dal contenuto trattato?"
+"Forse ci sono questioni su cui non si può scherzare e quando succede la cosa può spiazzare chi ascolta; o forse è pervasiva l’abitudine a sentir parlare di quelle questioni solo in un modo, solo con un punto di vista, che non necessariamente è sbagliato, ma quando è uno soltanto, non può che essere incompleto."
+
+Contorsionista "So che forse vi sto spiazzando con le mie parole, dunque vi chiedo: cosa significa avere un handicap? Come se ne parla? Ci si prefigge di distruggere barriere non solo architettoniche in nome di una perenne parola d’ordine: inclusione."
+"Ma cosa significa veramente? Secondo me le prime barriere, su cui riflettere, sono le parole che usiamo per pensare e comunicare, che rivolgiamo al mondo con la presunzione di sapere che gli altri condividano a priori il significato che noi attribuiamo loro."
+"Dobbiamo essere consapevoli che il linguaggio che adottiamo è precario, perché si evolve sempre, ed è potenzialmente ingannevole se non si chiarisce cosa si vuole davvero dire. Che ne pensate?"
+
+narrator "Potete proseguire questa riflessione con l’equilibrista, a cui non spaventa la precarietà delle cose e la sfrutta per ideare progetti apparentemente impensabili, oppure con la illusionista, che riesce a ingannare, certo, ma non per danneggiare.\nCon chi volete parlare: con l’equilibrista o con la illusionista?"
+"Per farlo, dimostrate di aver letto bene.\nSe avete colto il tema etico, darete senso a questo anagramma:"
+"END"

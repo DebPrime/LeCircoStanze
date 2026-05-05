@@ -1,0 +1,21 @@
+narrator "Avete scelto di parlare con lo sputafuoco. Le affermazioni del domatore non vi hanno lasciato indifferenti. Forse sono congetture assurde e magari in questa assurdità c’è del vero. Sostiene di non essere il solo a pensare una realtà diversa, ad avere una visione alternativa del potere, del male e della violenza. Lo sputafuoco avrà davvero idee simili?"
+"Entrate nella circo-stanza dello sputafuoco ed emerge subito una sua singolare passione. L’ambiente è pieno di armi da fuoco, di poster commemorativi di conflitti neanche troppo lontani, di testi a sostegno della violenza come mezzo efficace di repressione e mantenimento dell’ordine, nonché di conquista di ciò che è giusto possedere."
+
+Sputafuoco "Vi intimorisce ciò che vedete? Le armi sono spesso giudicate come strumenti di morte ma dipende da come vengono usate e per quale motivo si utilizzano. Certamente richiedono responsabilità. Non preoccupatevi, sono tutte detenute legalmente, ho un regolare porto d’armi, e nessuna è carica e potenzialmente pericolosa in questo momento"
+
+narrator "Gli chiedete come mai ne possiede così tante, se si tratta di una collezione come altre, o se ci sono altre ragioni.\nRisponde:"
+
+Sputafuoco "Negli anni ho accumulato queste armi anche per passione, collezionando diversi prototipi di cui mi affascina il funzionamento, ma ammetto che possederle e saperle usare mi dà sicurezza. Il fatto che posso agire armato allontana chi pensa di poter imporre il suo potere su di me. Non ha senso privarmi di questa opportunità"
+
+narrator "Replicate che però ci sono situazioni in cui è giusto accettare il potere di qualcun altro, che sia una persona o uno stato."
+
+Sputafuoco "Quando questo avviene non sono certo che stiamo parlando di vero potere ma solo del normale ordine sociale. Se nel lavoro ho un capo che deve darmi degli ordini io devo eseguire, lo stesso vale per il mio paese."
+"Non vale però se si tratta di un altro paese che su di me non ha alcuna autorità. Se mi viene chiesto di imbracciare un’arma e andare al fronte per difendere il mio paese, io obbedisco. In questo caso non subisco il potere, lo stato condivide il suo con me, ed è il normale ordine sociale"
+
+narrator "Dopo una breve pausa conclude:"
+
+Sputafuoco "Secondo voi come ci si pone di fronte al pericolo, è forse sbagliato affrontarlo? Come pensate ci si possa difendere realmente nel mondo in cui vivete? Se ritenete che i pericoli vadano affrontati, e non evitati, vi consiglio di parlare con la controfigura, mentre se pensate che la realtà sia diversa da come siete abituati a vederla rivolgetevi alla illusionista."
+
+narrator "Volete incontrare la controfigura o la illusionista?"
+"Per farlo, dimostrate di aver letto bene.\nSe avete colto il tema, darete senso a questo anagramma:"
+"END"

@@ -1,0 +1,25 @@
+narrator "Avete scelto di parlare con l’equilibrista, l’artista che sa trovare il baricentro perfetto degli oggetti per disporli in modo incredibile e prodigioso. La contorsionista vi ha detto che lui trasforma la precarietà delle cose. Già questo è un concetto interessante."
+"Entrando nella circo-stanza dell’equilibrista vi stupisce la grande quantità di libri presenti nel suo caravan. Manuali scientifici di vario tipo, atlanti e dizionari."
+
+Equilibrista "L’artista circense non è dedito solo all’allenamento fisico. Per le mie esibizioni devo documentarmi sugli oggetti che manovro, sui materiali di cui sono fatti, e se ciò che leggo è complicato, devo assolutamente trovare il modo di capirlo"
+
+narrator "Commentate positivamente che questo è decisamente un approccio scientifico.\nEgli prosegue:"
+
+Equilibrista "E non basta che lo capisca io, perché nella preparazione dei miei numeri non sono solo. Parte del mio lavoro è adottare una comunicazione chiara e convincente, che susciti interesse e che promuova il valore di tutte le cose, quindi anche della conoscenza"
+
+narrator "Commentate nuovamente dicendo che col suo lavoro, oltre a generare stupore e ammirazione, sponsorizza l’importanza dello studio, che evidentemente sta alla base di ogni disciplina e arte, compresa quella circense."
+
+Equilibrista "Infatti è così"
+
+narrator "risponde."
+
+Equilibrista "Una comunicazione efficace, che vada oltre il semplice slogan accattivante – il quale ha il suo fine legittimo e indiscusso – dovrebbe portare a riflettere, a mettere in discussione le proprie convinzioni, o a prendere in considerazione che la realtà può essere diversa da come la vediamo"
+
+narrator "Siete d’accordo con quanto dice, e lui si accorge che seguite il suo ragionamento con interesse, così conclude:"
+
+Equilibrista "So che ciò che ho detto è condivisibile, ma metterlo in atto è altra cosa. L’efficacia della comunicazione si misura nella sua potenza persuasiva. Non tutte le persone accettano di venire persuase."
+"In questa compagnia, per esempio, il domatore non si presta così facilmente a mettere in discussione le sue convinzioni, mentre la illusionista è brava a rendere più criptica una realtà già di per sé difficile da decifrare. Incontrando l’uno o l’altra potrete capire meglio."
+
+narrator "Volete incontrare il domatore o la illusionista?"
+"Per farlo, dimostrate di aver letto bene.\nSe avete colto il tema, darete senso a questo anagramma:"
+"END"
