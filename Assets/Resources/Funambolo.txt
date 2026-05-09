@@ -8,5 +8,6 @@ narrator "Avete scelto di recarvi dal funambolo per provare a parlare con lui di
 "Il primo, a detta sua, è un tipo determinato, sempre energico, potrebbe essere un consumatore di stimolanti assunti per mantenere sempre alto il livello delle sue prestazioni; il secondo invece, mostra atteggiamenti piuttosto malinconici, quando toglie gli abiti di scena, e trascorre molto tempo da solo."
 "Queste informazioni suscitano in voi una certa preoccupazione e volete provare a capire se quanto sospetta il funambolo sia corrispondente a verità."
 "Bisogna parlare, almeno con uno di loro, ma da chi partire?"
-"Chi volete incontrare: il giocoliere o il pagliaccio?\nPer farlo, dimostrate di aver letto bene. Se avete colto il tema etico, darete senso a questo anagramma:"
+"Chi volete incontrare: il giocoliere o il pagliaccio?"
+"Per farlo, dimostrate di aver letto bene. Se avete colto il tema etico, darete senso a questo anagramma:"
 "END"

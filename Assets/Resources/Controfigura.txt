@@ -1,14 +1,14 @@
 narrator "Avete scelto di incontrare la controfigura, colui che per lavoro si spaccia per qualcun altro, esponendo la propria vita a pericoli che la persona che sostituisce non può o non vuole prendere in considerazione.\nEntrando nella circo-stanza della controfigura, notate un ambiente molto semplice."
 
-Contorsionista "Ho origini molto umili"
+Controfigura "Ho origini molto umili"
 
 narrator "esordisce l’uomo."
 
-Contorsionista "Sono dovuto scappare dal mio paese e non ho trovato subito l’accoglienza che avrei voluto e di cui avevo bisogno"
+Controfigura "Sono dovuto scappare dal mio paese e non ho trovato subito l’accoglienza che avrei voluto e di cui avevo bisogno"
 
 narrator "Di cosa aveva bisogno? Glielo chiedete perché sentite che non è scontata la risposta."
 
-Contorsionista "Avevo bisogno di lavorare per avere un tetto sulla testa e il tanto necessario per sopravvivere. Ci ho provato ma ogni volta veniva preferita un’altra persona, oppure lavoravo per giorni senza essere pagato o ricevendo una cifra misera. Senza accorgermi in breve tempo sono finito per strada."
+Controfigura "Avevo bisogno di lavorare per avere un tetto sulla testa e il tanto necessario per sopravvivere. Ci ho provato ma ogni volta veniva preferita un’altra persona, oppure lavoravo per giorni senza essere pagato o ricevendo una cifra misera. Senza accorgermi in breve tempo sono finito per strada."
 "Quando non hai pasti sicuri, un posto per riposare e per lavarti, è ancora più difficile trovare qualcuno che ti prenda a lavorare. Nessuno si fida più di te. Diventi inguardabile, al disprezzo subentra l’indifferenza."
 "Da immigrato la mia presenza disturbava, da misero accattone la mia presenza non suscitava più nulla. Una mattina d’inverno un volontario distribuiva bevande calde. Nel porgere la tazza di tè mi ha guardato e mi ha sorriso. Io esistevo per lui. L’ho incontrato altre volte e abbiamo iniziato a conoscerci. Mi ha invitato presso un centro dove si offre assistenza a persone emarginate come me."
 "Sono stato dapprima ospitato, poi mi hanno aiutato nella ricerca di un lavoro. Così sono finito in questa compagnia e ora non sono più inguardabile, ora non è indifferente la mia presenza! Per anni mi sono rifugiato nel pensiero che non fosse reale ciò che vivevo, che non stava accadendo a me, perché non me lo meritavo."
