@@ -514,10 +514,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CheckAnswer
   inputPanel: {fileID: 840243248}
   answerFile: {fileID: 4900000, guid: 09ddeb1d48d21844fb6af8d4c7606e3f, type: 3}
-  narratorText: {fileID: 1355030320}
-  question: 
   buttonsToShow:
   - {fileID: 1291175549}
+  questionTexts: []
 --- !u!1 &398953233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,8 +1132,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 80.66273, y: 0.000011444}
-  m_SizeDelta: {x: 361.3255, y: 50}
+  m_AnchoredPosition: {x: 97.69251, y: 0.000011444}
+  m_SizeDelta: {x: 395.3851, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675542857
 MonoBehaviour:
@@ -1222,7 +1221,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -59.276245, y: -4.0880127, z: 2.368103, w: -2.0439453}
+  m_margin: {x: -59.276245, y: -4.0880127, z: -43.044586, w: -2.0439453}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

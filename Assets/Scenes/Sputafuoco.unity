@@ -514,8 +514,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CheckAnswer
   inputPanel: {fileID: 840243248}
   answerFile: {fileID: 4900000, guid: 457430a2334c68048942f28a4ff00928, type: 3}
-  narratorText: {fileID: 1355030320}
-  question: 
   buttonsToShow:
   - {fileID: 1291175549}
 --- !u!1 &361714318
@@ -833,7 +831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 173364e12208a6e4293ab19b8964c2ea, type: 3}
+  m_Texture: {fileID: 2800000, guid: e0d50502e0df52a479f7168e92dd3ce0, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0

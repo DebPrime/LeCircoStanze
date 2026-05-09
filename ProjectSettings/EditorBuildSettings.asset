@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Acrobata.unity
+    path: Assets/Scenes/Login.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/Esempio2.unity
@@ -50,6 +50,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Trapezista.unity
     guid: f4c74f8b67e67c347941e2051abfce2d
+  - enabled: 1
+    path: Assets/Scenes/Introduzione.unity
+    guid: 46521ee6c18099f4d90aa4a54617b9b1
+  - enabled: 1
+    path: Assets/Scenes/Acrobata.unity
+    guid: ae2bbd80382b9d040bee21e6c991cf53
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

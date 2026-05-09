@@ -514,8 +514,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CheckAnswer
   inputPanel: {fileID: 840243248}
   answerFile: {fileID: 4900000, guid: ffba8d7108778644f9c680a48f2db32d, type: 3}
-  narratorText: {fileID: 1355030320}
-  question: 
   buttonsToShow:
   - {fileID: 1291175549}
 --- !u!1 &398953233
@@ -673,7 +671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 14}
   m_SizeDelta: {x: 2000, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507684388
@@ -696,7 +694,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 173364e12208a6e4293ab19b8964c2ea, type: 3}
+  m_Texture: {fileID: 2800000, guid: 7e337ab16b56872409ca3d24c190b1a9, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
