@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7794aa1a5755c6e4195475a4af7874c2
+guid: 01b29658ffe1166428ceaee46bb62b2f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6561272786849874684
-    second: pngtree-black-and-yellow-round-line-quotes-text-box-png-image_4940151_0
+      213: -2838672241945654444
+    second: download (5)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngtree-black-and-yellow-round-line-quotes-text-box-png-image_4940151_0
+      name: download (5)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 360
-        height: 360
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf2cf9626d25e0b50800000000000000
-      internalID: 6561272786849874684
+      spriteID: 45b4119c2a20b98d0800000000000000
+      internalID: -2838672241945654444
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pngtree-black-and-yellow-round-line-quotes-text-box-png-image_4940151_0: 6561272786849874684
+      download (5)_0: -2838672241945654444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

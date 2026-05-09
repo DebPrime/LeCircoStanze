@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 64cc9c1f2d4d9104f8ebb4c10c826c4d
+guid: 121026652afaaa947b592914ca1949cc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5564356594337896784
-    second: professional-title-box-clipart-business-text-box-business-infographic-ppt_1194497-202_0
+      213: 3150272983019787682
+    second: download (4)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: professional-title-box-clipart-business-text-box-business-infographic-ppt_1194497-202_0
+      name: download (4)_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 273
-        width: 707
-        height: 193
+        x: 0
+        y: 0
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 059dc1167d0983d40800000000000000
-      internalID: 5564356594337896784
+      spriteID: 2a59762569408bb20800000000000000
+      internalID: 3150272983019787682
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      professional-title-box-clipart-business-text-box-business-infographic-ppt_1194497-202_0: 5564356594337896784
+      download (4)_0: 3150272983019787682
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

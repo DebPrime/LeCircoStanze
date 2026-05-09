@@ -1,129 +1,53 @@
-using Unity.Netcode;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.Networking;
 using System.Collections;
-using System.Collections.Generic;
-using TMPro; // Required for TextMeshPro
 
-public class DataCollector : NetworkBehaviour
+public class PlayerData
 {
-    [Header("UI Settings")]
-    [SerializeField] private TMP_Text[] groupStatusTexts; // Drag your 6 Text objects here in the Inspector
+    public string username;
+    public int circoStanza;
+}
 
-    private Dictionary<ulong, int> clientGroupIndex = new Dictionary<ulong, int>();
-    private const int MAX_CLIENTS = 6;
-
-    private void Start()
+public class DataCollector : MonoBehaviour
+{
+    // 1. Esempio GET: Recupera dati dal server
+    public IEnumerator GetData(string url)
     {
-        if (NetworkManager.Singleton != null)
+        using (UnityWebRequest webRequest = UnityWebRequest.Get(url))
         {
-            NetworkManager.Singleton.ConnectionApprovalCallback = ApprovalCheck;
-            NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
-            NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnected;
-        }
-    }
+            yield return webRequest.SendWebRequest();
 
-    private void ApprovalCheck(NetworkManager.ConnectionApprovalRequest request, NetworkManager.ConnectionApprovalResponse response)
-    {
-        if (NetworkManager.Singleton.ConnectedClientsIds.Count >= MAX_CLIENTS)
-        {
-            response.Approved = false;
-            response.Reason = "Server Full";
-        }
-        else
-        {
-            response.Approved = true;
-            response.CreatePlayerObject = true;
-        }
-    }
-
-    private void OnClientConnected(ulong clientId)
-    {
-        if (!IsServer) return;
-
-        // Assign the first available index (0 to 5)
-        for (int i = 0; i < MAX_CLIENTS; i++)
-        {
-            if (!clientGroupIndex.ContainsValue(i))
+            if (webRequest.result == UnityWebRequest.Result.Success)
             {
-                clientGroupIndex.Add(clientId, i);
-                UpdateUIText(i, "Connected - Main Scene");
-                break;
+                // Converte il testo JSON in un oggetto C#
+                PlayerData data = JsonUtility.FromJson<PlayerData>(webRequest.downloadHandler.text);
+                Debug.Log("Giocatore: " + data.username + " - Score: " + data.circoStanza);
+            }
+            else
+            {
+                Debug.LogError("Errore: " + webRequest.error);
             }
         }
     }
 
-    private void OnClientDisconnected(ulong clientId)
+    // 2. Esempio POST: Invia dati al server
+    public IEnumerator PostData(string url, PlayerData data)
     {
-        if (IsServer && clientGroupIndex.TryGetValue(clientId, out int index))
+        string json = JsonUtility.ToJson(data); // Converte oggetto in stringa JSON
+        byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(json);
+
+        using (UnityWebRequest request = new UnityWebRequest(url, "POST"))
         {
-            UpdateUIText(index, "Disconnected");
-            clientGroupIndex.Remove(clientId);
-        }
-    }
+            request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+            request.downloadHandler = new DownloadHandlerBuffer();
+            request.SetRequestHeader("Content-Type", "application/json");
 
-    [ServerRpc(RequireOwnership = false)]
-    private void RequestChangeServerRpc(string sceneName, ServerRpcParams rpcParams = default)
-    {
-        ulong clientId = rpcParams.Receive.SenderClientId;
+            yield return request.SendWebRequest();
 
-        // 1. Update the UI on the Server/Host
-        if (clientGroupIndex.TryGetValue(clientId, out int index))
-        {
-            UpdateUIText(index, $"In Scene: {sceneName}");
-        }
-
-        // 2. Tell the specific client to load the scene
-        ClientRpcParams clientRpcParams = new ClientRpcParams
-        {
-            Send = new ClientRpcSendParams { TargetClientIds = new ulong[] { clientId } }
-        };
-        LoadLocalSceneClientRpc(sceneName, clientRpcParams);
-    }
-
-    private void UpdateUIText(int groupIndex, string message)
-    {
-        // Only updates if the reference is set in the Inspector
-        if (groupIndex >= 0 && groupIndex < groupStatusTexts.Length && groupStatusTexts[groupIndex] != null)
-        {
-            groupStatusTexts[groupIndex].text = $"Gruppo {groupIndex + 1}: {message}";
-        }
-    }
-
-    [ClientRpc]
-    private void LoadLocalSceneClientRpc(string sceneName, ClientRpcParams clientRpcParams = default)
-    {
-        StartCoroutine(SwitchSceneRoutine(sceneName));
-    }
-
-    private IEnumerator SwitchSceneRoutine(string newSceneName)
-    {
-        Scene oldScene = SceneManager.GetActiveScene();
-        AsyncOperation loadOp = SceneManager.LoadSceneAsync(newSceneName, LoadSceneMode.Additive);
-        yield return loadOp;
-
-        Scene newScene = SceneManager.GetSceneByName(newSceneName);
-        if (newScene.IsValid()) SceneManager.SetActiveScene(newScene);
-
-        if (oldScene.name != "MainScene")
-            SceneManager.UnloadSceneAsync(oldScene);
-        else
-        {
-            foreach (GameObject obj in oldScene.GetRootGameObjects())
+            if (request.result == UnityWebRequest.Result.Success)
             {
-                if (obj.GetComponent<NetworkManager>() == null && obj != this.gameObject)
-                    obj.SetActive(false);
+                Debug.Log("Dati inviati con successo!");
             }
         }
-    }
-
-    public override void OnDestroy()
-    {
-        if (NetworkManager.Singleton != null)
-        {
-            NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
-            NetworkManager.Singleton.OnClientDisconnectCallback -= OnClientDisconnected;
-        }
-        base.OnDestroy();
     }
 }
