@@ -4,20 +4,13 @@ using UnityEngine;
 using TMPro;
 using DIALOGUE;
 
-public class CheckAnswer : MonoBehaviour
+public class CheckMultipleAnswer : MonoBehaviour
 {
-    public enum QuestionLayout
-    {
-        MultipleQuestionsSingleAnswer,
-        SingleQuestionMultipleAnswers
-    }
-
     public InputPanel inputPanel;
     [SerializeField] private TextAsset[] answerFiles;
     [SerializeField] private TextAsset[] followupDialogueFiles;
     public GameObject[] buttonsToShow;
     public TMP_Text[] questionTexts;
-    public QuestionLayout questionLayout = QuestionLayout.MultipleQuestionsSingleAnswer;
 
     private List<string> rightAnswers = new List<string>();
     private Dictionary<string, int> answerIndexMap = new Dictionary<string, int>();
@@ -57,9 +50,6 @@ public class CheckAnswer : MonoBehaviour
             yield break;
 
         inputPanel.Show();
-        inputPanel.ResetForNextAttempt();
-        inputPanel.HideRetryText();
-
         List<string> remainingAnswers = new List<string>(rightAnswers);
 
         while (remainingAnswers.Count > 0)
@@ -139,13 +129,7 @@ public class CheckAnswer : MonoBehaviour
             Debug.LogWarning($"File di risposte '{file.name}' è vuoto o contiene solo righe vuote.");
         }
 
-        if (questionLayout == QuestionLayout.SingleQuestionMultipleAnswers && questionTexts != null && questionTexts.Length != rightAnswers.Count)
-        {
-            Debug.LogWarning($"questionTexts ha {questionTexts.Length} elementi ma sono state caricate {rightAnswers.Count} risposte. Assicurati che ci sia un TMP_Text per ogni risposta.");
-        }
-
         InitializeQuestionTexts();
-        UpdateQuestionTextDisplay(index);
         return true;
     }
 
@@ -204,36 +188,10 @@ public class CheckAnswer : MonoBehaviour
         if (questionTexts == null)
             return;
 
-        bool showAll = questionLayout == QuestionLayout.SingleQuestionMultipleAnswers;
         foreach (TMP_Text txt in questionTexts)
         {
             if (txt != null)
-            {
-                txt.color = new Color(1f, 1f, 1f, 1f); // bianco
-                txt.gameObject.SetActive(showAll);
-            }
-        }
-    }
-
-    private void UpdateQuestionTextDisplay(int activeIndex)
-    {
-        if (questionTexts == null)
-            return;
-
-        if (questionLayout == QuestionLayout.SingleQuestionMultipleAnswers)
-        {
-            for (int i = 0; i < questionTexts.Length; i++)
-            {
-                if (questionTexts[i] != null)
-                    questionTexts[i].gameObject.SetActive(true);
-            }
-            return;
-        }
-
-        for (int i = 0; i < questionTexts.Length; i++)
-        {
-            if (questionTexts[i] != null)
-                questionTexts[i].gameObject.SetActive(i == activeIndex);
+                txt.color = new Color(1f, 1f, 1f, 1f); //  bianco
         }
     }
 

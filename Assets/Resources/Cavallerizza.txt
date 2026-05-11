@@ -9,7 +9,8 @@ Cavallerizza "Vengono date per scontate tante cose, buona parte delle quali rico
 
 narrator "Le chiedete di spiegarsi, di indicare a cosa stia facendo riferimento.\nCosì prosegue la riflessione:"
 
-Cavallerizza  "Tante volte ho sentito il peso di aspettative legate ad un presunto dovere di cura, così come tante altre volte ho subìto il pregiudizio laddove questa cura non la offrivo nel modo in cui era voluta o pretesa. Ho attraversato un periodo difficile in cui non sono stata in grado nemmeno di proteggermi, e ho fatto scelte di cui mi sono pentita, pensando di poter scindere la mia immagine e le mie prestazioni da ciò che sono io, dalla mia identità"
+Cavallerizza  "Tante volte ho sentito il peso di aspettative legate ad un presunto dovere di cura, così come tante altre volte ho subìto il pregiudizio laddove questa cura non la offrivo nel modo in cui era voluta o pretesa."
+"Ho attraversato un periodo difficile in cui non sono stata in grado nemmeno di proteggermi, e ho fatto scelte di cui mi sono pentita, pensando di poter scindere la mia immagine e le mie prestazioni da ciò che sono io, dalla mia identità"
 
 narrator "La ascoltate con attenzione ma non sapete bene come proseguire la conversazione, così pensa lei a riempire il silenzio che si è creato."
 
