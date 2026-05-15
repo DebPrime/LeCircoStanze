@@ -702,10 +702,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheckAnswer
   inputPanel: {fileID: 840243248}
-  answerFile: {fileID: 4900000, guid: ffb534c60500fa6488c0f3643796f9af, type: 3}
+  answerFiles:
+  - {fileID: 4900000, guid: ffb534c60500fa6488c0f3643796f9af, type: 3}
+  - {fileID: 4900000, guid: 33fd33556a566c646a4691e7bf7d0468, type: 3}
+  followupDialogueFiles:
+  - {fileID: 4900000, guid: e7d866aafeeae1a498b336e2d8f50c90, type: 3}
   buttonsToShow:
   - {fileID: 1291175549}
-  questionTexts: []
+  questionTexts:
+  - {fileID: 1499479586}
+  - {fileID: 1575870672}
+  questionLayout: 0
 --- !u!1 &345096938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,6 +2220,7 @@ RectTransform:
   - {fileID: 1499479585}
   - {fileID: 398953234}
   - {fileID: 608053311}
+  - {fileID: 1575870671}
   m_Father: {fileID: 2016998012}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2593,7 +2601,6 @@ RectTransform:
   m_Children:
   - {fileID: 400555357}
   - {fileID: 345096939}
-  - {fileID: 1575870671}
   - {fileID: 813527779}
   m_Father: {fileID: 2016998012}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3731,7 +3738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1570691654
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3798,7 +3805,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 184196944}
         m_TargetAssemblyTypeName: ChoosePath, Assembly-CSharp
-        m_MethodName: GoToFunambolo
+        m_MethodName: GoToDirettrice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4016,7 +4023,7 @@ GameObject:
   - component: {fileID: 1575870673}
   - component: {fileID: 1575870672}
   m_Layer: 5
-  m_Name: TitleText
+  m_Name: TitleText(2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4029,12 +4036,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575870670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1131291106}
+  m_Father: {fileID: 840243246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4447,10 +4454,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheckAnswer
   inputPanel: {fileID: 840243248}
-  answerFile: {fileID: 4900000, guid: 09b8e8cf7a46fbd4ab986c091a9e9343, type: 3}
+  answerFiles: []
+  followupDialogueFiles: []
   buttonsToShow:
   - {fileID: 1291175549}
   questionTexts: []
+  questionLayout: 0
 --- !u!1 &1935972346
 GameObject:
   m_ObjectHideFlags: 0

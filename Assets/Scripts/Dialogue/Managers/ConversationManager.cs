@@ -119,7 +119,15 @@ namespace DIALOGUE
                     }
                     else
                     {
-                        Debug.LogWarning("CheckAnswer script not found in scene!");
+                        CheckMultipleAnswer multipleAnswerScript = Object.FindObjectOfType<CheckMultipleAnswer>();
+                        if (multipleAnswerScript != null)
+                        {
+                            multipleAnswerScript.StartAnswerCheck();
+                        }
+                        else
+                        {
+                            Debug.LogWarning("CheckAnswer o CheckMultipleAnswer script non trovato in scena!");
+                        }
                     }
 
                     waitingAtInputBar = true;

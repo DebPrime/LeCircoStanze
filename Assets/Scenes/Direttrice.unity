@@ -1108,7 +1108,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheckAnswer
   inputPanel: {fileID: 840243248}
-  answerFile: {fileID: 4900000, guid: bfc64e9be4cd8e94a88d4c0553ed8958, type: 3}
+  answerFiles:
+  - {fileID: 4900000, guid: bfc64e9be4cd8e94a88d4c0553ed8958, type: 3}
+  followupDialogueFiles: []
   buttonsToShow:
   - {fileID: 1291175549}
   questionTexts:
@@ -1124,6 +1126,7 @@ MonoBehaviour:
   - {fileID: 1844153154}
   - {fileID: 783606865}
   - {fileID: 2009730306}
+  questionLayout: 1
 --- !u!1 &398953233
 GameObject:
   m_ObjectHideFlags: 0

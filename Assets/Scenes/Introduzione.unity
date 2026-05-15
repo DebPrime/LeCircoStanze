@@ -513,10 +513,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheckAnswer
   inputPanel: {fileID: 840243248}
-  answerFile: {fileID: 4900000, guid: bf51e55b5294abc41a2680a38ab03b2a, type: 3}
+  answerFiles:
+  - {fileID: 4900000, guid: bf51e55b5294abc41a2680a38ab03b2a, type: 3}
+  followupDialogueFiles: []
   buttonsToShow:
   - {fileID: 1291175549}
-  questionTexts: []
+  questionTexts:
+  - {fileID: 298310821}
 --- !u!1 &298310819
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +579,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "7-4-3-8-6-8     6-11-4-3-2-11-8     1-2     7-10-11-8-6-6-11-10-9-8   
     \r\n 7-8-1-1-8     9-10-11-9-4-12-6-2-5-13-8     \r\n10-5-10-13-10-2-5-7-4    
-    7-2-1-1\u2019     2-9-11-4-14-2-6-2\r\n"
+    7-2-1-1\u2019 2-9-11-4-14-2-6-2\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
