@@ -8,64 +8,69 @@ public class ChoosePath : MonoBehaviour
         SceneManager.LoadScene("Acrobata");
         Time.timeScale = 1;
     }
-        public void GoToFunambolo()
+    public void GoToFunambolo()
     {
         SceneManager.LoadScene("Funambolo");
         Time.timeScale = 1;
     }
-        public void GoToGiocoliere()
+    public void GoToGiocoliere()
     {
         SceneManager.LoadScene("Giocoliere");
         Time.timeScale = 1;
     }
-        public void GoToPagliaccio()
+    public void GoToPagliaccio()
     {
         SceneManager.LoadScene("Pagliaccio");
         Time.timeScale = 1;
     }
-        public void GoToTrapezista()
+    public void GoToTrapezista()
     {
         SceneManager.LoadScene("Trapezista");
         Time.timeScale = 1;
     }
-        public void GoToCavallerizza()
+    public void GoToCavallerizza()
     {
         SceneManager.LoadScene("Cavallerizza");
         Time.timeScale = 1;
     }
-        public void GoToContorsionista()
+    public void GoToContorsionista()
     {
         SceneManager.LoadScene("Contorsionista");
         Time.timeScale = 1;
     }
-        public void GoToControfigura()
+    public void GoToControfigura()
     {
         SceneManager.LoadScene("Controfigura");
         Time.timeScale = 1;
     }
-        public void GoToDomatore()
+    public void GoToDomatore()
     {
         SceneManager.LoadScene("Domatore");
         Time.timeScale = 1;
     }
-        public void GoToEquilibrista()
+    public void GoToEquilibrista()
     {
         SceneManager.LoadScene("Equilibrista");
         Time.timeScale = 1;
     }
-        public void GoToIllusionista()
+    public void GoToIllusionista()
     {
         SceneManager.LoadScene("Illusionista");
         Time.timeScale = 1;
     }
-        public void GoToSputafuoco()
+    public void GoToSputafuoco()
     {
         SceneManager.LoadScene("Sputafuoco");
         Time.timeScale = 1;
     }
-        public void GoToDirettrice()
+    public void GoToDirettrice()
     {
         SceneManager.LoadScene("Direttrice");
+        Time.timeScale = 1;
+    }
+    public void GoToIntro() 
+    {
+        SceneManager.LoadScene("Introduzione");
         Time.timeScale = 1;
     }
 }

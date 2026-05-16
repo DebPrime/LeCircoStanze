@@ -1,0 +1,6 @@
+lust
+wrath
+gluttony
+pride
+envy
+sloth

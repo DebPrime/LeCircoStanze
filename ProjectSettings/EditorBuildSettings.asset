@@ -53,7 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interfaccia_Prof.unity
     guid: e1466a3f3facf6d459933908b4bdaf8d
-  - enabled: 1 
+  - enabled: 1
     path: Assets/Scenes/Introduzione.unity
     guid: 46521ee6c18099f4d90aa4a54617b9b1
   - enabled: 1
